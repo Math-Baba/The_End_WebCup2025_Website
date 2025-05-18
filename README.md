@@ -16,3 +16,5 @@ Chacun a apporté ses compétences en design, développement front-end/back-end 
 # Membres de l'équipe : 
 - **Math-Baba** - [GitHub](https://github.com/Math-Baba)
 - **AmysGith** - [GitHub](https://github.com/AmysGith)
+- **kkk083** - [GitHub](https://github.com/kkk083)
+- Bryan RASOLONDRAIBE 
