@@ -9,6 +9,9 @@ L’objectif : marquer la fin d’une aventure avec humour, émotion ou style, e
 # Équipe & Réalisation
 Nous sommes Infinite Roots, une équipe d’étudiants en informatique, réunis pour relever le défi de la Webcup 2025. Durant 24h, nous avons donné le maximum pour concevoir TheEnd.page, un site fonctionnel, créatif et fidèle au thème.
 Chacun a apporté ses compétences en design, développement front-end/back-end et gestion de projet. Cette expérience intense nous a permis de repousser nos limites, de collaborer efficacement et de transformer une idée originale en un site web plus ou moins complet.
+<p align="center">
+  <img src="assets/images/bannière_infinite_roots.png" />
+</p>
 
 # Membres de l'équipe : 
 - **Math-Baba** - [GitHub](https://github.com/Math-Baba)
