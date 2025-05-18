@@ -1,0 +1,256 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Comic+Neue&family=Montserrat:wght@400;700&family=Rubik+Mono+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nimbus Sans L";
+    box-sizing: border-box;
+    transition: all 0.3s ease; /* animation smooth globale */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  transition: background-color 1s, color 1s, font-family 0.5s;
+}
+
+
+.step {
+  display: none;
+  padding: 50px 20px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.step.active {
+  display: flex;
+}
+
+button {
+  background-color: #fb6376;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: transform 0.3s ease, background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5d2a42;
+  transform: scale(1.05);
+}
+
+.tone-option {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fcb1a6;
+  transition: transform 0.3s ease, background-color 0.3s;
+}
+
+.tone-option:hover {
+  transform: scale(1.1);
+  background-color: #ffdccc;
+}
+
+.tone-option.selected {
+  border: 3px solid #5d2a42;
+}
+
+/* INTRO MODE */
+body.intro-mode {
+  background: radial-gradient(circle, #fff9ec 0%, #ffdccc 100%);
+  font-family: 'Playfair Display', serif;
+  color: #5d2a42;
+}
+
+/* AMBIANCES PAR TON */
+body.ambiance-dramatique {
+  background-color: #5d2a42;
+  color: #fff9ec;
+  font-family: 'Playfair Display', serif;
+}
+
+body.ambiance-drole {
+  background-color: #fb6376;
+  color: #fff9ec;
+  font-family: 'Comic Neue', cursive;
+}
+
+body.ambiance-classe {
+  background-color: #fcb1a6;
+  color: #5d2a42;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body.ambiance-rage {
+  background-color: #5d2a42;
+  color: #ffdccc;
+  font-family: 'Rubik Mono One', monospace;
+}
+
+/* Titres */
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+/* Paragraphe de description */
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+/* Champs de formulaire */
+input[type="text"],
+select,
+textarea {
+  padding: 14px 20px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  width: 60%;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  transition: border 0.3s ease;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Effet focus */
+input:focus,
+select:focus,
+textarea:focus {
+  border: 2px solid #fb6376;
+  outline: none;
+}
+
+/* Boutons */
+button {
+  font-size: 1.1rem;
+  padding: 14px 28px;
+  border-radius: 10px;
+}
+
+
+#backButton {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  font-size: 1.1rem;
+  color: #5d2a42;
+  cursor: pointer;
+  z-index: 1000;
+  font-weight: bold;
+  background-color: #ffdccc;
+  padding: 8px 14px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+#backButton:hover {
+  background-color: #fcb1a6;
+  transform: translateX(-3px);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
+
+h1.animate__animated {
+  animation: pulse 2s infinite;
+}
+
+body.ambiance-rage h1,
+body.ambiance-rage h2 {
+  animation: glitch 0.5s infinite;
+}
+
+/**CSS Formulaire -> by Bryan **/
+.button-share {
+      display:inline-block;
+      padding:.6rem 1.2rem;
+      margin:.5rem;
+      background:#fff;
+      border-radius:8px;
+      font-weight:600;
+      text-decoration:none;
+      color:#333;
+      box-shadow:0 4px 6px rgba(0,0,0,.1);
+      transition:transform .15s;
+}
+.button-share:active {
+  transform:scale(.96);
+}
+#responses {
+  margin-top:2rem;
+  padding:1rem;
+  background:#f9f9f9;
+  border-radius:8px;
+}
+.response-message {
+  background:#fff8dc;
+  padding:.75rem;
+  border-radius:8px;
+  margin-top:.5rem;
+}
+
+/**CSS Formulaire -> Mathieu **/
+.gif-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gif-option {
+  width: 150px;
+  border: 2px solid transparent;
+  padding: 5px;
+  transition: transform 0.2s, border-color 0.3s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.gif-option img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.gif-option.selected {
+  border-color: #00bfff;
+  transform: scale(1.05);
+}
+

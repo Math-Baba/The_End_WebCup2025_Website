@@ -1,0 +1,116 @@
+[17-May-2025 23:58:13 Indian/Reunion] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'émotions' in 'field list' in /home/infiniteroots/public_html/galerie.php:21
+Stack trace:
+#0 /home/infiniteroots/public_html/galerie.php(21): PDO->query('SELECT nom, cat...')
+#1 {main}
+  thrown in /home/infiniteroots/public_html/galerie.php on line 21
+[17-May-2025 23:58:20 Indian/Reunion] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'émotions' in 'field list' in /home/infiniteroots/public_html/galerie.php:21
+Stack trace:
+#0 /home/infiniteroots/public_html/galerie.php(21): PDO->query('SELECT nom, cat...')
+#1 {main}
+  thrown in /home/infiniteroots/public_html/galerie.php on line 21
+[17-May-2025 23:59:00 Indian/Reunion] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'émotions' in 'field list' in /home/infiniteroots/public_html/galerie.php:27
+Stack trace:
+#0 /home/infiniteroots/public_html/galerie.php(27): PDO->query('SELECT nom, cat...')
+#1 {main}
+  thrown in /home/infiniteroots/public_html/galerie.php on line 27
+[17-May-2025 23:59:54 Indian/Reunion] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'émotions' in 'field list' in /home/infiniteroots/public_html/galerie.php:27
+Stack trace:
+#0 /home/infiniteroots/public_html/galerie.php(27): PDO->query('SELECT nom, cat...')
+#1 {main}
+  thrown in /home/infiniteroots/public_html/galerie.php on line 27
+[18-May-2025 00:00:04 Indian/Reunion] PHP Warning:  Undefined array key "émotions" in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:04 Indian/Reunion] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:04 Indian/Reunion] PHP Warning:  Undefined array key "émotions" in /home/infiniteroots/public_html/galerie.php on line 37
+[18-May-2025 00:00:04 Indian/Reunion] PHP Warning:  Undefined array key "émotions" in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:04 Indian/Reunion] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:04 Indian/Reunion] PHP Warning:  Undefined array key "émotions" in /home/infiniteroots/public_html/galerie.php on line 37
+[18-May-2025 00:00:33 Indian/Reunion] PHP Warning:  Undefined array key "émotions" in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:33 Indian/Reunion] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:33 Indian/Reunion] PHP Warning:  Undefined array key "émotions" in /home/infiniteroots/public_html/galerie.php on line 37
+[18-May-2025 00:00:33 Indian/Reunion] PHP Warning:  Undefined array key "émotions" in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:33 Indian/Reunion] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:33 Indian/Reunion] PHP Warning:  Undefined array key "émotions" in /home/infiniteroots/public_html/galerie.php on line 37
+[18-May-2025 00:00:39 Indian/Reunion] PHP Warning:  Undefined array key "emotions" in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:39 Indian/Reunion] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:39 Indian/Reunion] PHP Warning:  Undefined array key "emotions" in /home/infiniteroots/public_html/galerie.php on line 37
+[18-May-2025 00:00:39 Indian/Reunion] PHP Warning:  Undefined array key "emotions" in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:39 Indian/Reunion] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:39 Indian/Reunion] PHP Warning:  Undefined array key "emotions" in /home/infiniteroots/public_html/galerie.php on line 37
+[18-May-2025 00:00:41 Indian/Reunion] PHP Warning:  Undefined array key "emotions" in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:41 Indian/Reunion] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:41 Indian/Reunion] PHP Warning:  Undefined array key "emotions" in /home/infiniteroots/public_html/galerie.php on line 37
+[18-May-2025 00:00:41 Indian/Reunion] PHP Warning:  Undefined array key "emotions" in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:41 Indian/Reunion] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/infiniteroots/public_html/galerie.php on line 44
+[18-May-2025 00:00:41 Indian/Reunion] PHP Warning:  Undefined array key "emotions" in /home/infiniteroots/public_html/galerie.php on line 37
+[18-May-2025 00:03:29 Indian/Reunion] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'emotions' in 'field list' in /home/infiniteroots/public_html/galerie.php:27
+Stack trace:
+#0 /home/infiniteroots/public_html/galerie.php(27): PDO->query('SELECT nom, cat...')
+#1 {main}
+  thrown in /home/infiniteroots/public_html/galerie.php on line 27
+[18-May-2025 00:32:38 Indian/Reunion] PHP Warning:  require_once(/home/infiniteroots/public_htmlconfig.php): Failed to open stream: No such file or directory in /home/infiniteroots/public_html/storage.php on line 2
+[18-May-2025 00:32:38 Indian/Reunion] PHP Fatal error:  Uncaught Error: Failed opening required '/home/infiniteroots/public_htmlconfig.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/infiniteroots/public_html/storage.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/infiniteroots/public_html/storage.php on line 2
+[18-May-2025 00:32:57 Indian/Reunion] PHP Warning:  require_once(/home/infiniteroots/public_htmlconfig.php): Failed to open stream: No such file or directory in /home/infiniteroots/public_html/storage.php on line 2
+[18-May-2025 00:32:57 Indian/Reunion] PHP Fatal error:  Uncaught Error: Failed opening required '/home/infiniteroots/public_htmlconfig.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/infiniteroots/public_html/storage.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/infiniteroots/public_html/storage.php on line 2
+[18-May-2025 00:36:14 Indian/Reunion] PHP Warning:  require_once(/home/infiniteroots/public_htmlconfig.php): Failed to open stream: No such file or directory in /home/infiniteroots/public_html/storage.php on line 2
+[18-May-2025 00:36:14 Indian/Reunion] PHP Fatal error:  Uncaught Error: Failed opening required '/home/infiniteroots/public_htmlconfig.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/infiniteroots/public_html/storage.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/infiniteroots/public_html/storage.php on line 2
+[18-May-2025 00:45:39 Indian/Reunion] PHP Warning:  Undefined array key "gif" in /home/infiniteroots/public_html/galerie.php on line 34
+[18-May-2025 00:45:39 Indian/Reunion] PHP Warning:  Undefined array key "gif" in /home/infiniteroots/public_html/galerie.php on line 34
+[18-May-2025 00:46:21 Indian/Reunion] PHP Warning:  Undefined array key "gif" in /home/infiniteroots/public_html/galerie.php on line 34
+[18-May-2025 00:46:21 Indian/Reunion] PHP Warning:  Undefined array key "gif" in /home/infiniteroots/public_html/galerie.php on line 34
+[18-May-2025 00:54:10 Indian/Reunion] PHP Warning:  Undefined array key "gif" in /home/infiniteroots/public_html/galerie.php on line 34
+[18-May-2025 00:54:10 Indian/Reunion] PHP Warning:  Undefined array key "gif" in /home/infiniteroots/public_html/galerie.php on line 34
+[18-May-2025 00:54:10 Indian/Reunion] PHP Warning:  Undefined array key "gif" in /home/infiniteroots/public_html/galerie.php on line 34
+[18-May-2025 00:54:10 Indian/Reunion] PHP Warning:  Undefined array key "gif" in /home/infiniteroots/public_html/galerie.php on line 34
+[18-May-2025 00:55:53 Indian/Reunion] PHP Warning:  Undefined array key "gif" in /home/infiniteroots/public_html/galerie.php on line 34
+[18-May-2025 00:55:53 Indian/Reunion] PHP Warning:  Undefined array key "gif" in /home/infiniteroots/public_html/galerie.php on line 34
+[18-May-2025 00:59:27 Indian/Reunion] PHP Warning:  Undefined array key "gif" in /home/infiniteroots/public_html/galerie.php on line 34
+[18-May-2025 00:59:27 Indian/Reunion] PHP Warning:  Undefined array key "gif" in /home/infiniteroots/public_html/galerie.php on line 34
+[18-May-2025 01:47:59 Indian/Reunion] PHP Warning:  Undefined variable $dbname in /home/infiniteroots/public_html/submit.php on line 10
+[18-May-2025 01:47:59 Indian/Reunion] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/infiniteroots/public_html/submit.php:28
+Stack trace:
+#0 /home/infiniteroots/public_html/submit.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/infiniteroots/public_html/submit.php on line 28
+[18-May-2025 01:48:35 Indian/Reunion] PHP Warning:  Undefined variable $dbname in /home/infiniteroots/public_html/submit.php on line 16
+[18-May-2025 01:48:35 Indian/Reunion] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/infiniteroots/public_html/submit.php:34
+Stack trace:
+#0 /home/infiniteroots/public_html/submit.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/infiniteroots/public_html/submit.php on line 34
+[18-May-2025 01:48:47 Indian/Reunion] PHP Warning:  Undefined variable $dbname in /home/infiniteroots/public_html/submit.php on line 16
+[18-May-2025 01:48:47 Indian/Reunion] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/infiniteroots/public_html/submit.php:34
+Stack trace:
+#0 /home/infiniteroots/public_html/submit.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/infiniteroots/public_html/submit.php on line 34
+[18-May-2025 01:49:15 Indian/Reunion] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/infiniteroots/public_html/submit.php:34
+Stack trace:
+#0 /home/infiniteroots/public_html/submit.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/infiniteroots/public_html/submit.php on line 34
+[18-May-2025 01:52:04 Indian/Reunion] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/infiniteroots/public_html/submit.php:6) in /home/infiniteroots/public_html/submit.php on line 38
+[18-May-2025 01:53:24 Indian/Reunion] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/infiniteroots/public_html/submit.php:6) in /home/infiniteroots/public_html/submit.php on line 36
+[18-May-2025 09:32:47 Indian/Reunion] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created_at' in 'field list' in /home/infiniteroots/public_html/submit.php:39
+Stack trace:
+#0 /home/infiniteroots/public_html/submit.php(39): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/infiniteroots/public_html/submit.php on line 39
+[18-May-2025 09:38:36 Indian/Reunion] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created_at' in 'field list' in /home/infiniteroots/public_html/submit.php:39
+Stack trace:
+#0 /home/infiniteroots/public_html/submit.php(39): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/infiniteroots/public_html/submit.php on line 39
+[18-May-2025 09:41:25 Indian/Reunion] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/infiniteroots/public_html/submit.php:37
+Stack trace:
+#0 /home/infiniteroots/public_html/submit.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/infiniteroots/public_html/submit.php on line 37

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #FFF9EC;
+  color: #2c2c2c;
+  padding: 2rem;
+}
+
+/* TITRES */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #5D2A42;
+  font-weight: 600;
+}
+
+h1:first-of-type {
+  margin-top: 3rem;
+}
+
+/* CONTAINER CARDS */
+#vote-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* CARTE INDIVIDUELLE */
+.card {
+  height: 530px;
+  width: 300px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid #ffdccc;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* IMAGE */
+.card img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* TITRE / EMOTION */
+.card h3 {
+  margin-bottom: 0.4rem;
+  color: #5D2A42;
+  font-size: 1.3rem;
+}
+
+.card em {
+  color: #777;
+}
+
+/* TEXTE */
+.card p {
+  font-size: 0.95rem;
+  margin: 0.4rem 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.3;
+}
+
+/* BOUTON VOTE */
+.vote-btn {
+  margin-top: 1rem;
+  background: #fb6376;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  display: inline-block;
+  transition: all 0.25s ease-in-out;
+}
+
+.vote-btn:hover {
+  background: #d94b60;
+  transform: scale(1.05);
+}
+
+.votes {
+  margin-top: 0.4rem;
+  font-weight: bold;
+  color: #5d2a42;
+}
+
+/* HALL OF FAME */
+#hall-of-fame {
+  background: linear-gradient(135deg, #5d2a42, #fb6376);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  margin: 4rem auto 2rem;
+  max-width: 1000px;
+  text-align: center;
+}
+
+#hall-of-fame h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #FFDCCC;
+}
+
+.fame-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fame-cards li {
+  list-style: none;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  margin: 0.4rem;
+  backdrop-filter: blur(3px);
+}
+
+/* FOOTER BONUS */
+.fun-container {
+  margin-top: 3rem;
+  background: #ffdccc;
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 450px;
+  margin-inline: auto;
+}
+
+.fun-text {
+  color: #5D2A42;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  background: #5D2A42;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn:hover {
+  background: #fb6376;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+}
