@@ -30,4 +30,4 @@ Chacun a apporté ses compétences en design, développement front-end/back-end 
 - **Mathieu** - [GitHub](https://github.com/Math-Baba)
 - **Amy** - [GitHub](https://github.com/AmysGith)
 - **Junior** - [GitHub](https://github.com/kkk083)
-- Bryan RASOLONDRAIBE 
+- **Bryan RASOLONDRAIBE** 
