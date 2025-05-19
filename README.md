@@ -1,7 +1,7 @@
 # 🏆 Webcup 2025
 La Webcup est un hackathon de 24h organisé chaque année dans l’océan Indien. Les équipes doivent créer un site web original à partir d’un thème surprise, révélé au début de l’épreuve. L’objectif est de tester la créativité, la cohésion d’équipe et les compétences techniques des participants.
 <p align="center">
-  <img src="assets/images/logo_webcup.webp" />
+  <img src="assets/image/logo_webcup.webp" />
 </p>
 Le thème de cette édition était TheEnd.page, une idée originale de plateforme où toute personne qui quitte quelque chose — un travail, un projet, une équipe, une relation, un canal Discord, etc. — peut créer une page de départ personnalisée.
 L’objectif : marquer la fin d’une aventure avec humour, émotion ou style, en laissant un message à ceux qui restent.
@@ -16,14 +16,14 @@ L’utilisateur est ensuite guidé vers le formulaire du "Rage quit", où il peu
 Enfin, le parcours se conclut dans le Hall of Fame, une galerie des publications les plus appréciés par la communauté — une manière de célébrer les adieux les plus marquants.
 
 <p align="center">
-  <img src="assets/images/accueil.png" />
+  <img src="assets/image/accueil.png" />
 </p>
 
 # Équipe & Réalisation
 Nous sommes Infinite Roots, une équipe d’étudiants en informatique, réunis pour relever le défi de la Webcup 2025. Durant 24h, nous avons donné le maximum pour concevoir TheEnd.page, un site fonctionnel, créatif et fidèle au thème.
 Chacun a apporté ses compétences en design, développement front-end/back-end et gestion de projet. Cette expérience intense nous a permis de repousser nos limites, de collaborer efficacement et de transformer une idée originale en un site web plus ou moins complet.
 <p align="center">
-  <img src="assets/images/bannière_infinite_roots.png" />
+  <img src="assets/image/bannière_infinite_roots.png" />
 </p>
 
 # Membres de l'équipe : 
