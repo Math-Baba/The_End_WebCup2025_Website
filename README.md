@@ -9,11 +9,12 @@ L’objectif : marquer la fin d’une aventure avec humour, émotion ou style, e
 # Description du site 
 TheEnd.Page est un site web unique  que nous avons conçu en tant qu’étudiants, qui offre un espace d’expression à toute personne ayant quitté une situation — qu’elle ait été joyeuse, douloureuse ou simplement marquante.
 
-Dès la page d’accueil, on a essayé de poser une ambiance sobre et symbolique. Le design est volontairement minimaliste, avec un fond sombre et quelques touches de lumière pour évoquer la fin d’un chapitre.  
+Dès la page d’accueil, on a essayé de poser une ambiance sobre et symbolique avec un design minimaliste. 
 
-L’utilisateur est ensuite guidé vers le formulaire du "quitteur" parfait, où il peut rédiger un message personnalisé destiné à la situation qu’il a quittée. Une fois soumis, il accède au CV inversé, une page originale où il peut exprimer ce qui lui manquera, ses ressentis, et même une dernière punchline.
+L’utilisateur est ensuite guidé vers le formulaire du "Rage quit", où il peut rédiger une publication personnalisée destinée à la situation qu’il a quittée. Une fois soumis, il a la possibilité d'accéder au CV inversé, une page originale où il peut exprimer ce qui lui manquera, ses ressentis, et même une dernière punchline.
 
-Enfin, le parcours se conclut dans le Hall of Fame, une galerie des messages les plus appréciés par la communauté — une manière de célébrer les adieux les plus marquants.
+Enfin, le parcours se conclut dans le Hall of Fame, une galerie des publications les plus appréciés par la communauté — une manière de célébrer les adieux les plus marquants.
+
 <p align="center">
   <img src="assets/images/accueil.png" />
 </p>
