@@ -22,6 +22,7 @@ Enfin, le parcours se conclut dans le Hall of Fame, une galerie des publications
 # Équipe & Réalisation
 Nous sommes Infinite Roots, une équipe d’étudiants en informatique, réunis pour relever le défi de la Webcup 2025. Durant 24h, nous avons donné le maximum pour concevoir TheEnd.page, un site fonctionnel, créatif et fidèle au thème.
 Chacun a apporté ses compétences en design, développement front-end/back-end et gestion de projet. Cette expérience intense nous a permis de repousser nos limites, de collaborer efficacement et de transformer une idée originale en un site web plus ou moins complet.
+🥈Notre travail a été récompensé par la 2ᵉ place à la Webcup régionale Maurice 2025🥈
 <p align="center">
   <img src="assets/image/bannière_infinite_roots.png" />
 </p>
